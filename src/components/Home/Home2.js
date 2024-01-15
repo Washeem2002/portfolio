@@ -36,8 +36,8 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my SKills for developing products
+              with <b className="purple">Node.js ,Express js ,Mongodb</b> and
               <i>
                 <b className="purple">
                   {" "}
