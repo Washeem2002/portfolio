@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import gamecart from "../../Assets/Projects/gamecart.jpg";
 import anime from "../../Assets/Projects/animecom.jpg";
 import diary from "../../Assets/Projects/diary.png";
+import paint from "../../Assets/Projects/Screenshot 2024-07-12 203546.png"
 
 
 function Projects() {
@@ -44,6 +45,17 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={paint}
+              isBlog={false}
+              title="Drawing Board"
+              description="Drawing Board is a versatile web application , designed for effortless drawing and editing. With features like shape selection, reordering, and customization, it’s perfect for artists, designers, and engineers to bring their ideas to life"
+              ghLink="https://github.com/Washeem2002/DrawingBoard"
+              demoLink="https://paintshop-chi.vercel.app/"              
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={diary}
               isBlog={false}
